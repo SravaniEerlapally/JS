@@ -1,7 +1,7 @@
 "use strict"//treat all js code as newer version
-alert(3+3)
+//alert(3+3)
 //not preferred to write as it is not having a high readability
-console.log("hey); console.log(5+2);
+console.log("hey"); console.log(5+2);
 let age=20
 let state=true
 let name="Shami"
