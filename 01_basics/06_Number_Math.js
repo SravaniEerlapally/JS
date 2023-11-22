@@ -10,9 +10,9 @@ const num2 = 233.55;
 console.log(num2.toPrecision(3));
 
 const hundreds = 100000000
-console.log(hundreds.toLocaleString('en-IN));
+console.log(hundreds.toLocaleString('en-IN'));
 //====================MATH=====================
-
+console.log("======================================MATH======================================");
 console.log(Math);
 console.log(Math.abs(-4));
 console.log(Math.round(4.55));//used mostly than ceil & floor
