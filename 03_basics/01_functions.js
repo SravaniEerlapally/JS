@@ -26,3 +26,27 @@ function loginUserMessage(username){
 }
 console.log(loginUserMessage("Sravani"));
 console.log(loginUserMessage());
+function calculateCartPrice(...num1){
+    return num1;
+}
+console.log(calculateCartPrice(22,555,99,777));
+
+const user = {
+    username: "SRAVANI",
+    id: 2000,
+}
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and id is ${anyobject.id}`);
+}
+handleObject(user)
+handleObject({
+    username: "KIM",
+    id: 555
+})
+
+const arr = [200,300,500,800]
+function returnSecVal(getnum){
+    return getnum[1];
+}
+console.log(returnSecVal(arr));
+console.log(returnSecVal([55,66,88,99]))
