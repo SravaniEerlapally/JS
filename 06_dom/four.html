@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoM Boom Boom</title>
+</head>
+<body style="background-color: black;color: white;">
+    <ul class="lang">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langName){
+        const li = document.createElement('li');
+        li.innerHTML = `${langName}`;
+        document.querySelector('.lang').appendChild(li)
+    }
+    addLanguage("Python")
+    addLanguage("TypeScript")
+
+    function addOpti(langName){
+        const li = document.createElement('li');
+        //const addText = document.createTextNode(langName)
+        li.appendChild(document.createTextNode(langName));
+        document.querySelector('.lang').appendChild(li);
+    }
+    addOpti('GoLang');
+    //Edit
+    const secLang = document.querySelector("li:nth-child(2)");
+    //secLang.innerHTML ="Mojo"
+    const newli = document.createElement('li');
+    newli.textContent = "Mojo";
+    secLang.replaceWith(newli)
+</script>
+</html>
