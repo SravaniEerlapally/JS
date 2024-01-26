@@ -32,5 +32,8 @@
     const newli = document.createElement('li');
     newli.textContent = "Mojo";
     secLang.replaceWith(newli)
+    //remove
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
 </script>
 </html>
